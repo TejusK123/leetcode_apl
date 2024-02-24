@@ -1,0 +1,13 @@
+⍝Leetcode9 palindrome number
+⍝ to do: point free
+ans9←{≡∘⌽⍨((10⍴⍨(1+⌊10⍟⍵))⊤⍵)}
+
+⍝Leetcode1 two sum
+⍝ picking the second solution so that we dont pick the index of the same element twice
+⍝ to do: point free
+ans1←{2⊃⍸⍺=∘.+⍨⍵}
+
+
+⍝Leetcode69 sqrt
+⍝ not optimal
+ans69←{0.5*⍨⍵}
